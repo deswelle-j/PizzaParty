@@ -10,6 +10,7 @@ import { PizzaService } from '../services/pizza.service';
   providers: [PizzaService]
 })
 export class CatalogComponent implements OnInit {
+  total =0;
   constructor(private pizzaService: PizzaService) { };
   ngOnInit(): void {
     this.pizzaService.getPizzas().then(pizzas => this.pizzas = pizzas);
@@ -20,7 +21,9 @@ export class CatalogComponent implements OnInit {
     this.selectedPizza = pizza;
   }
   pizzas: Pizza[]; 
+  
 
- 
-
+  changeCart(event){
+    this.total += event;
+  }
 }

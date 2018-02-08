@@ -5,6 +5,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ pizza.name }}</h5>
             <p class="card-text">{{ pizza.price }} euros</p>
+            <app-counter></app-counter>
             <label>name: </label>
             <input [(ngModel)]="pizza.name" placeholder="name">
           </div>

@@ -8,6 +8,7 @@ import { PizzaComponent } from './pizza.component';
 import { menuComponent } from './menu/menu.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { HomeComponent } from './home/home.component';
+import { CounterComponent } from "./counter/counter.component";
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { HomeComponent } from './home/home.component';
     menuComponent,
     CatalogComponent,
     HomeComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule,
