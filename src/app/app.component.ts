@@ -21,7 +21,7 @@ import { OnInit } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'Pizza Dark';
+  title = 'Pizza Party';
 
 
 }

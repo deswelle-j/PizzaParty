@@ -12,7 +12,7 @@
                         <h5 class="card-title">{{ pizza.name }}</h5>
                         <p class="card-text">Prix : {{ pizza.price }} euros</p>
                         <div class="align-items-center">
-                            <app-counter (augment)="changeCart($event)" (augment)="changeCart($event)"></app-counter>
+                            <app-counter (diminue)="changeCart($event)" (augment)="changeCart($event)"></app-counter>
                             <a [class.selected]="pizza === selectedPizza"
                             (click)="onSelect(pizza)" class="btn btn-dark text-danger ">Voir la pizza</a>
                         </div>
