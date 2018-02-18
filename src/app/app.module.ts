@@ -9,6 +9,7 @@ import { menuComponent } from './menu/menu.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from "./counter/counter.component";
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CounterComponent } from "./counter/counter.component";
     CatalogComponent,
     HomeComponent,
     CounterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

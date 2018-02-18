@@ -14,7 +14,7 @@ import { OnInit } from '@angular/core';
   .pizzas li:hover {
     cursor: pointer;
   },
-  h1{background-color: 'black;}
+  h1{background-color: #fff8dc;}
 `],
 
   /*styleUrls: ['./app.component.css']*/
